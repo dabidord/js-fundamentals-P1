@@ -15,6 +15,13 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let i = 1; i <= 8; i++) {
+    if (i % 2 === 0) {
+      console.log("_#_#_#_#")
+    } else {
+      console.log("#_#_#_#_")
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -24,7 +31,7 @@ function exercise11() {
   //
   //
 }
-
+exercise11()
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-11
 
