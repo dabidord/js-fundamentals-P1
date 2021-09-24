@@ -6,6 +6,12 @@ function exercise6_3() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let i = 1; i <= 50; i++) {
+    if (i % 2 === 0) {
+      console.log(i)
+    } else {
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -15,7 +21,7 @@ function exercise6_3() {
   //
   //
 }
-
+exercise6_3()
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-6.3
 

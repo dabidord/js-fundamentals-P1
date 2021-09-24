@@ -16,6 +16,15 @@ function exercise6_5() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let isNumber = ""
+  for (let number = 0; number <= 10; number++) {
+    if (number % 2 === 0) {
+      isNumber = `even`
+    } else if (number % 2 === 1) {
+      isNumber = `odd`
+    }
+    console.log(`${number} is ${isNumber}`)
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -25,7 +34,7 @@ function exercise6_5() {
   //
   //
 }
-
+exercise6_5()
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-6.5
 

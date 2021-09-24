@@ -28,6 +28,18 @@ function exercise9() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let number = 1; number <= 100; number++) {
+    if (number % 3 === 0 && number % 5 === 0) {
+      console.log("FizzBuzz")
+    } else if (number % 3 === 0) {
+      console.log("Fizz")
+    } else if (number % 5 === 0) {
+      console.log("Buzz")
+    }
+    else {
+      console.log(number)
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -37,7 +49,7 @@ function exercise9() {
   //
   //
 }
-
+exercise9()
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-9
 
